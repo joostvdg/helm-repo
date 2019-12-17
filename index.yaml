@@ -3,7 +3,7 @@ entries:
   certmanager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-17T21:52:34.70102+01:00"
+    created: "2019-12-17T22:05:10.146564+01:00"
     description: A Helm chart for Kubernetes
     digest: f4cc3aec16465f52c6d54ebd0ecbaa043cba343b0ea55c4b0a598b175b083401
     name: certmanager
@@ -13,7 +13,7 @@ entries:
   cloudbees-jenkins-distribution:
   - apiVersion: v1
     appVersion: 2.190.3
-    created: "2019-12-17T21:52:34.704793+01:00"
+    created: "2019-12-17T22:05:10.149461+01:00"
     dependencies:
     - condition: nginx-ingress.enabled
       name: nginx-ingress
@@ -23,17 +23,17 @@ entries:
       highly dependable, secure, Jenkins environment curated from the most recent
       supported Jenkins release. The distribution comes with a recommended catalog
       of tested plugins available through the CloudBees Assurance Program.
-    digest: a4e25ecab4cd20f2c498dab419e25b5a95b0702558b82e9a785d2ca72b2b3fa2
+    digest: d065002bdb330aec930a4f3f2e6adea246b21f920cbe7725ff6df3367e4349ff
     home: https://www.cloudbees.com/products/cloudbees-jenkins-distribution
     icon: https://secure.gravatar.com/avatar/76890016ebf241458fb600f8e4fa1e52.jpg
     name: cloudbees-jenkins-distribution
     urls:
-    - cloudbees-jenkins-distribution-1.5.0.tgz
-    version: 1.5.0
+    - cloudbees-jenkins-distribution-1.6.0.tgz
+    version: 1.6.0
   opendj4:
   - apiVersion: v1
     appVersion: 4.4.3-1
-    created: "2019-12-17T21:52:34.706855+01:00"
+    created: "2019-12-17T22:05:10.151433+01:00"
     description: OpenDJ Community Edition with some Test Data
     digest: 5599acfa06da743afc338b23d3d9b168e01d8417619b24172145794b02e82424
     name: opendj4
@@ -42,11 +42,11 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-17T21:52:34.705866+01:00"
+    created: "2019-12-17T22:05:10.150424+01:00"
     description: A Helm chart for Kubernetes
     digest: d94432eb1393a32c50f7ca1760b46085a8a842e2cd6e987eaff8a67c636188c4
     name: opendj4
     urls:
     - opendj4-0.2.0.tgz
     version: 0.2.0
-generated: "2019-12-17T21:52:34.69566+01:00"
+generated: "2019-12-17T22:05:10.144697+01:00"
