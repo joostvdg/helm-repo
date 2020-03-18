@@ -3,7 +3,7 @@ entries:
   certmanager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-18T21:59:53.390779+01:00"
+    created: "2020-03-18T22:05:25.356101+01:00"
     description: A Helm chart for Kubernetes
     digest: f4cc3aec16465f52c6d54ebd0ecbaa043cba343b0ea55c4b0a598b175b083401
     name: certmanager
@@ -13,7 +13,7 @@ entries:
   cloudbees-jenkins-distribution:
   - apiVersion: v1
     appVersion: 2.176.2.3
-    created: "2020-03-18T21:59:53.394242+01:00"
+    created: "2020-03-18T22:05:25.359679+01:00"
     dependencies:
     - condition: nginx-ingress.enabled
       name: nginx-ingress
@@ -33,7 +33,7 @@ entries:
   exposecontroller:
   - apiVersion: v1
     appVersion: 2.3.109
-    created: "2020-03-18T21:59:53.394879+01:00"
+    created: "2020-03-18T22:05:25.360591+01:00"
     digest: a37b5ce23ab09615707617057ff1270fa0a9004fcd8b10c7bcee9c7fb10c5b39
     home: https://jenkins-x.github.io/jenkins-x-website/
     icon: https://raw.githubusercontent.com/fabric8-apps/exposecontroller-app/master/src/main/fabric8/icon.png
@@ -47,7 +47,7 @@ entries:
   opendj4:
   - apiVersion: v1
     appVersion: 4.4.3-1
-    created: "2020-03-18T21:59:53.396263+01:00"
+    created: "2020-03-18T22:05:25.362431+01:00"
     description: OpenDJ Community Edition with some Test Data
     digest: 5599acfa06da743afc338b23d3d9b168e01d8417619b24172145794b02e82424
     name: opendj4
@@ -56,7 +56,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-18T21:59:53.395543+01:00"
+    created: "2020-03-18T22:05:25.361337+01:00"
     description: A Helm chart for Kubernetes
     digest: d94432eb1393a32c50f7ca1760b46085a8a842e2cd6e987eaff8a67c636188c4
     name: opendj4
@@ -65,19 +65,19 @@ entries:
     version: 0.2.0
   training-coursecharts-basic-cjd:
   - apiVersion: v1
-    created: "2020-03-18T21:59:53.400986+01:00"
+    created: "2020-03-18T22:05:25.370903+01:00"
     dependencies:
     - name: cloudbees-jenkins-distribution
       repository: https://charts.cloudbees.com/public/cloudbees
       version: 2.204.103
     - name: gitea
-      repository: https://jfelten.github.io/helm-charts/charts
-      version: 1.9.3
+      repository: https://charts.k8s.land
+      version: 1.2.3
     description: A Helm chart for Kubernetes
-    digest: 43e75c72464950cd649442587438de3220a6ebb9675c0304e110f9263b662e68
+    digest: 3b4fb11647d92abb379b2a5a8e1bc52ee02712b4fd999e84b72b19e837a6a45d
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/d273e09/images/go.png
     name: training-coursecharts-basic-cjd
     urls:
-    - training-coursecharts-basic-cjd-0.3.0.tgz
-    version: 0.3.0
-generated: "2020-03-18T21:59:53.387762+01:00"
+    - training-coursecharts-basic-cjd-0.4.0.tgz
+    version: 0.4.0
+generated: "2020-03-18T22:05:25.354066+01:00"
